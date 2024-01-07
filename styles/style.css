@@ -234,5 +234,68 @@
 
 #offer{
   background: rgba(229, 84, 115, 0.05);
+  margin-bottom: 50px;
+}
+
+
+/* Instagram */
+
+#instagram{
   margin-bottom: 110px;
+}
+
+.prod{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.prod img{
+  width: 270px;
+  border-radius: 8px;
+}
+
+
+
+/* Subscribe */
+
+
+.bgimg {
+  background-image: url('../images/Rectangle\ 9.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin: auto;
+  padding: 50px 0;
+  border-radius: 10px;
+}
+
+.form{
+  display: flex;
+  gap: 10px;
+  width: 700px;
+  align-items: center;
+  text-align: center;
+  margin: 0px auto;
+  padding-bottom: 36px;
+  margin-top: 10px;
+}
+
+form{
+  padding-top: 30px;
+}
+
+.form input{
+  width: 100%;
+  padding: 17px;
+  border: none;
+  border-radius: 10px;
+}
+
+.flo{
+  padding-top: 50px;
+}
+
+.bot{
+  margin-bottom: 10px;
 }
