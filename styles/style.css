@@ -15,6 +15,7 @@
   font-weight: 700;
   border-radius: 8px;
   cursor: pointer;
+  transition: all 1s;
 }
 
 .btn:hover{
@@ -22,6 +23,11 @@
   transition: 1s;
 }
 
+.sec_header{
+  display: block;
+  align-items: center;
+  text-align: center;
+}
 /* Header */
 
 #head{
@@ -56,4 +62,98 @@
   margin: 32px 0;
 }
 
+
+
+
+/* Featured Flowers */
+
+
+#featured{
+  margin-top: 60px;
+  margin-bottom: 100px;
+}
+
+.container2{
+  max-width: 75%;
+  align-items: center;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+
+
+.sec_header .sec_h3{
+  color: #272727;
+  text-align: center;
+  font-family: Lato;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.sec_header .sec_p{
+  color: rgba(39, 39, 39, 0.60);
+  text-align: center;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 166.667% */
+  margin-top: 12px;
+}
+
+.fe_flo{
+  align-items: center;
+  text-align: center;
+}
+
+.flowers{
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+  margin-top: 48px;
+  gap: 20px;
+}
+
+.hig img{
+  height: 80%;
+  margin-top: 50px;
+}
+
+.fe_img{
+  border-radius: 300px 300px 0 0;
+  padding: 30px 15px 0;
+  height: 400px;
+  width: 320px;
+  display: flex;
+}
+
+.fe_img img{
+  width: 100%;
+}
+
+.pink{
+  background: rgba(167, 33, 98, 0.15);
+}
+
+.light_blue{
+  background: rgba(5, 151, 160, 0.15);
+}
+
+.gray{
+  background: rgba(71, 125, 17, 0.15);
+}
+
+.link{
+  color: #272727;
+  text-align: center;
+  font-family: Lato;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 35px; /* 145.833% */
+  text-decoration: underline;
+  margin-top: 20px;
+}
 
